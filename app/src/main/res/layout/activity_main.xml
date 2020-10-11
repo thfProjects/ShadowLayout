@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.libs.shadowlayouttest.MainActivity">
+
+    <com.libs.shadowlayout.ShadowLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:shadowopacity="100"
+        app:shadowoffset="10"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OOOOOOOOOO"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_margin="40dp"/>
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="aaa"/>
+
+        </LinearLayout>
+
+    </com.libs.shadowlayout.ShadowLayout>
+
+</android.support.constraint.ConstraintLayout>
