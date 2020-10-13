@@ -12,7 +12,9 @@
         app:shadowopacity="100"
         app:shadowoffset="10"
         tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        tools:layout_editor_absoluteX="8dp"
+        app:shadowed="false"
+        android:id="@+id/shadowlayout">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,12 +32,39 @@
             <Switch
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingRight="50dp"/>
+                android:paddingRight="50dp"
+                android:checked="false"
+                android:id="@+id/shadowswitch"/>
 
             <Button
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:text="aaa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="opacity"/>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:id="@+id/opacity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="offset"/>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="20"
+                android:id="@+id/offset"/>
+
 
         </LinearLayout>
 
