@@ -1,5 +1,5 @@
 # ShadowLayout
-A simple Android app to test a custom layout that enables a cast shadow for all its children. Made for the needs of the floating snake game
+A simple Android app to test a custom layout that enables a cast shadow for all its children. Made for the needs of my FloatingSnake project
 
 Built in Android Studio
 
